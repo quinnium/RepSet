@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		027A48242C78A5A8003EA1E6 /* RepSetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48232C78A5A8003EA1E6 /* RepSetApp.swift */; };
-		027A48262C78A5A8003EA1E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48252C78A5A8003EA1E6 /* ContentView.swift */; };
 		027A48282C78A5A9003EA1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027A48272C78A5A9003EA1E6 /* Assets.xcassets */; };
 		027A482B2C78A5A9003EA1E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027A482A2C78A5A9003EA1E6 /* Preview Assets.xcassets */; };
+		027A48342C78A7AB003EA1E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48332C78A7AB003EA1E6 /* NetworkManager.swift */; };
+		027A48372C78A99B003EA1E6 /* RSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48362C78A99B003EA1E6 /* RSError.swift */; };
+		027A483F2C78B7D3003EA1E6 /* SessionsScreenView+VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A483E2C78B7D3003EA1E6 /* SessionsScreenView+VM.swift */; };
+		027A48412C78B7E4003EA1E6 /* SessionsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48402C78B7E4003EA1E6 /* SessionsScreenView.swift */; };
+		027A48432C78B847003EA1E6 /* SetsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48422C78B847003EA1E6 /* SetsScreenView.swift */; };
+		027A48452C78B854003EA1E6 /* SetsScreenView+VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48442C78B854003EA1E6 /* SetsScreenView+VM.swift */; };
+		027A484A2C78B8F6003EA1E6 /* RepsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48492C78B8F6003EA1E6 /* RepsScreenView.swift */; };
+		027A484C2C78B902003EA1E6 /* RepsScreenView+VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A484B2C78B902003EA1E6 /* RepsScreenView+VM.swift */; };
+		027A484F2C78B9AD003EA1E6 /* RSSessionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A484E2C78B9AD003EA1E6 /* RSSessionDTO.swift */; };
+		027A48512C78B9B7003EA1E6 /* RSSetDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48502C78B9B7003EA1E6 /* RSSetDTO.swift */; };
+		027A48532C78B9C0003EA1E6 /* RSRepDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48522C78B9C0003EA1E6 /* RSRepDTO.swift */; };
+		027A48562C78B9EE003EA1E6 /* RSSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48552C78B9EE003EA1E6 /* RSSession.swift */; };
+		027A48582C78B9F4003EA1E6 /* RSSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48572C78B9F4003EA1E6 /* RSSet.swift */; };
+		027A485A2C78B9FB003EA1E6 /* RSRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A48592C78B9FB003EA1E6 /* RSRep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		027A48202C78A5A8003EA1E6 /* RepSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		027A48232C78A5A8003EA1E6 /* RepSetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepSetApp.swift; sourceTree = "<group>"; };
-		027A48252C78A5A8003EA1E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		027A48272C78A5A9003EA1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		027A482A2C78A5A9003EA1E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		027A48332C78A7AB003EA1E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		027A48362C78A99B003EA1E6 /* RSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSError.swift; sourceTree = "<group>"; };
+		027A483E2C78B7D3003EA1E6 /* SessionsScreenView+VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionsScreenView+VM.swift"; sourceTree = "<group>"; };
+		027A48402C78B7E4003EA1E6 /* SessionsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsScreenView.swift; sourceTree = "<group>"; };
+		027A48422C78B847003EA1E6 /* SetsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsScreenView.swift; sourceTree = "<group>"; };
+		027A48442C78B854003EA1E6 /* SetsScreenView+VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SetsScreenView+VM.swift"; sourceTree = "<group>"; };
+		027A48492C78B8F6003EA1E6 /* RepsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsScreenView.swift; sourceTree = "<group>"; };
+		027A484B2C78B902003EA1E6 /* RepsScreenView+VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepsScreenView+VM.swift"; sourceTree = "<group>"; };
+		027A484E2C78B9AD003EA1E6 /* RSSessionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSessionDTO.swift; sourceTree = "<group>"; };
+		027A48502C78B9B7003EA1E6 /* RSSetDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSetDTO.swift; sourceTree = "<group>"; };
+		027A48522C78B9C0003EA1E6 /* RSRepDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSRepDTO.swift; sourceTree = "<group>"; };
+		027A48552C78B9EE003EA1E6 /* RSSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSession.swift; sourceTree = "<group>"; };
+		027A48572C78B9F4003EA1E6 /* RSSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSet.swift; sourceTree = "<group>"; };
+		027A48592C78B9FB003EA1E6 /* RSRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSRep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				027A48232C78A5A8003EA1E6 /* RepSetApp.swift */,
-				027A48252C78A5A8003EA1E6 /* ContentView.swift */,
+				027A48352C78A986003EA1E6 /* Utilities */,
+				027A48312C78A78B003EA1E6 /* Managers */,
+				027A484D2C78B994003EA1E6 /* Model */,
+				027A483A2C78B6CE003EA1E6 /* Views */,
 				027A48272C78A5A9003EA1E6 /* Assets.xcassets */,
 				027A48292C78A5A9003EA1E6 /* Preview Content */,
 			);
@@ -65,6 +94,80 @@
 				027A482A2C78A5A9003EA1E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		027A48312C78A78B003EA1E6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				027A48332C78A7AB003EA1E6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		027A48352C78A986003EA1E6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				027A48362C78A99B003EA1E6 /* RSError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		027A483A2C78B6CE003EA1E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				027A48462C78B8C0003EA1E6 /* Sessions Screen */,
+				027A48472C78B8D0003EA1E6 /* Sets Screen */,
+				027A48482C78B8E1003EA1E6 /* Reps Screen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		027A48462C78B8C0003EA1E6 /* Sessions Screen */ = {
+			isa = PBXGroup;
+			children = (
+				027A48402C78B7E4003EA1E6 /* SessionsScreenView.swift */,
+				027A483E2C78B7D3003EA1E6 /* SessionsScreenView+VM.swift */,
+			);
+			path = "Sessions Screen";
+			sourceTree = "<group>";
+		};
+		027A48472C78B8D0003EA1E6 /* Sets Screen */ = {
+			isa = PBXGroup;
+			children = (
+				027A48442C78B854003EA1E6 /* SetsScreenView+VM.swift */,
+				027A48422C78B847003EA1E6 /* SetsScreenView.swift */,
+			);
+			path = "Sets Screen";
+			sourceTree = "<group>";
+		};
+		027A48482C78B8E1003EA1E6 /* Reps Screen */ = {
+			isa = PBXGroup;
+			children = (
+				027A48492C78B8F6003EA1E6 /* RepsScreenView.swift */,
+				027A484B2C78B902003EA1E6 /* RepsScreenView+VM.swift */,
+			);
+			path = "Reps Screen";
+			sourceTree = "<group>";
+		};
+		027A484D2C78B994003EA1E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				027A48542C78B9CF003EA1E6 /* Data Transfer Objects */,
+				027A48552C78B9EE003EA1E6 /* RSSession.swift */,
+				027A48572C78B9F4003EA1E6 /* RSSet.swift */,
+				027A48592C78B9FB003EA1E6 /* RSRep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		027A48542C78B9CF003EA1E6 /* Data Transfer Objects */ = {
+			isa = PBXGroup;
+			children = (
+				027A484E2C78B9AD003EA1E6 /* RSSessionDTO.swift */,
+				027A48502C78B9B7003EA1E6 /* RSSetDTO.swift */,
+				027A48522C78B9C0003EA1E6 /* RSRepDTO.swift */,
+			);
+			path = "Data Transfer Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027A48262C78A5A8003EA1E6 /* ContentView.swift in Sources */,
+				027A485A2C78B9FB003EA1E6 /* RSRep.swift in Sources */,
+				027A484A2C78B8F6003EA1E6 /* RepsScreenView.swift in Sources */,
+				027A48562C78B9EE003EA1E6 /* RSSession.swift in Sources */,
+				027A48342C78A7AB003EA1E6 /* NetworkManager.swift in Sources */,
+				027A48512C78B9B7003EA1E6 /* RSSetDTO.swift in Sources */,
+				027A48432C78B847003EA1E6 /* SetsScreenView.swift in Sources */,
+				027A48412C78B7E4003EA1E6 /* SessionsScreenView.swift in Sources */,
+				027A48532C78B9C0003EA1E6 /* RSRepDTO.swift in Sources */,
+				027A483F2C78B7D3003EA1E6 /* SessionsScreenView+VM.swift in Sources */,
+				027A484C2C78B902003EA1E6 /* RepsScreenView+VM.swift in Sources */,
 				027A48242C78A5A8003EA1E6 /* RepSetApp.swift in Sources */,
+				027A48372C78A99B003EA1E6 /* RSError.swift in Sources */,
+				027A484F2C78B9AD003EA1E6 /* RSSessionDTO.swift in Sources */,
+				027A48452C78B854003EA1E6 /* SetsScreenView+VM.swift in Sources */,
+				027A48582C78B9F4003EA1E6 /* RSSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -274,11 +390,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RepSet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RepSet;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +404,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.quinnium.RepSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +424,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RepSet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RepSet;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +438,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.quinnium.RepSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
