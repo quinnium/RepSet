@@ -14,6 +14,16 @@ extension RepsScreenView {
         
         var reps: [RSRep]
         
+        var averageRepSpeed: Float {
+            let speeds = reps.map { $0.speed }
+            let sum = speeds.reduce(0, +)
+            return sum / Float(speeds.count)
+        }
+        
+        var averageRepSpeedString: String {
+            String(format: "%.2f", averageRepSpeed)
+        }
+        
         init(reps: [RSRep]) {
             self.reps = reps
         }

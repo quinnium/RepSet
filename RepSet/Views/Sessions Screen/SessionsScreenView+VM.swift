@@ -21,7 +21,7 @@ extension SessionsScreenView {
             }
         }
         
-        func fetchData() async {
+        private func fetchData() async {
             do {
                 // Fetching 'dictionary' (rather than model objects) for now to test
                 sessions = try await networkManager.fetchSessions()
@@ -31,6 +31,5 @@ extension SessionsScreenView {
             }
             
         }
-        
     }
 }

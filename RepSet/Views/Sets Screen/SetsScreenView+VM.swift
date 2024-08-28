@@ -17,6 +17,12 @@ extension SetsScreenView {
         init(sets: [RSSet]) {
             self.sets = sets
         }
+        
+        func timeString(from date: Date) -> String {
+            let dateFomatter = DateFormatter()
+            dateFomatter.timeStyle = .short
+            return dateFomatter.string(from: date)
+        }
     }
     
 }

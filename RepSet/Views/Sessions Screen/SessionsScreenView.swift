@@ -17,7 +17,7 @@ struct SessionsScreenView: View {
                 NavigationLink("Example Session") {
                     SetsScreenView(viewModel: .init(sets: session.sets))
                 }
-            }
+            }	
             .navigationTitle("Sessions")
         }
     }

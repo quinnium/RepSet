@@ -16,14 +16,21 @@ struct SetsScreenView: View {
             NavigationLink {
                 RepsScreenView(viewModel: .init(reps: set.reps))
             } label: {
-                Text(set.timestamp.description)
+                HStack {
+                    Text("\(set.reps.count) reps")
+                    Spacer()
+                    Text(viewModel.timeString(from: set.timestamp))
+                        .frame(width: 100)
+                    
+                }
+                
             }
 
         }
         .navigationTitle("Sets")
     }
 }
-//
-//#Preview {
-//    SetsScreenView()
-//}
+
+#Preview {
+    SetsScreenView(viewModel: .init(sets: []))
+}
