@@ -12,6 +12,11 @@ extension SetsScreenView {
     @Observable
     final class ViewModel {
         
+        var sets: [RSSet]
+        
+        init(sets: [RSSet]) {
+            self.sets = sets
+        }
     }
     
 }

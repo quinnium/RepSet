@@ -13,7 +13,7 @@ extension SessionsScreenView {
     final class ViewModel {
      
         let networkManager = NetworkManager()
-        var dict: [String: Any] = [:]
+        var sessions: [RSSession] = []
         
         init() {
             Task {
@@ -24,8 +24,8 @@ extension SessionsScreenView {
         func fetchData() async {
             do {
                 // Fetching 'dictionary' (rather than model objects) for now to test
-                dict = try await networkManager.fetchDictionary()
-                print(dict)
+                sessions = try await networkManager.fetchSessions()
+                print(sessions)
             } catch {
                 print(error.localizedDescription)
             }

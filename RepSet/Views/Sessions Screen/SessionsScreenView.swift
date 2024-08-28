@@ -12,7 +12,14 @@ struct SessionsScreenView: View {
     var viewModel = ViewModel()
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(viewModel.sessions) { session in
+                NavigationLink("Example Session") {
+                    SetsScreenView(viewModel: .init(sets: session.sets))
+                }
+            }
+            .navigationTitle("Sessions")
+        }
     }
 }
 

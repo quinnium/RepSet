@@ -12,6 +12,11 @@ extension RepsScreenView {
     @Observable
     final class ViewModel {
         
+        var reps: [RSRep]
+        
+        init(reps: [RSRep]) {
+            self.reps = reps
+        }
     }
     
 }

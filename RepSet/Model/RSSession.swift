@@ -7,6 +7,20 @@
 
 import Foundation
 
-class RSSession {
+struct RSSession: Decodable, Identifiable {
+    
+    let id: UUID
+    let sets: [RSSet]
+    
+    enum CodingKeys: CodingKey {
+        case id
+        case sets
+    }
+    
+    init(from decoder: any Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.id = UUID()
+        self.sets = try container.decode([RSSet].self, forKey: .sets)
+    }
     
 }

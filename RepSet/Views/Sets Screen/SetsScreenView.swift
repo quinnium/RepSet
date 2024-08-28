@@ -9,13 +9,21 @@ import SwiftUI
 
 struct SetsScreenView: View {
     
-    let viewModel = ViewModel()
+    let viewModel: ViewModel
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(viewModel.sets) { set in
+            NavigationLink {
+                RepsScreenView(viewModel: .init(reps: set.reps))
+            } label: {
+                Text(set.timestamp.description)
+            }
+
+        }
+        .navigationTitle("Sets")
     }
 }
-
-#Preview {
-    SetsScreenView()
-}
+//
+//#Preview {
+//    SetsScreenView()
+//}

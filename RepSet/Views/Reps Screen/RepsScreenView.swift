@@ -6,16 +6,24 @@
 //
 
 import SwiftUI
+import Charts
 
 struct RepsScreenView: View {
     
-    let viewModel = ViewModel()
+    let viewModel: ViewModel
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            List(viewModel.reps) { rep in
+                VStack {
+                    Text("Speed: \(rep.speed)")
+                    Text("Intensity: \(rep.intensity)")
+                }
+            }
+        }
     }
 }
 
-#Preview {
-    RepsScreenView()
-}
+//#Preview {
+//    RepsScreenView()
+//}
